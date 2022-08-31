@@ -1,0 +1,49 @@
+header h1{
+    font-family: "Agency FB";
+    text-align: center;
+    border: 3px solid #642F65;
+    margin-left:30px;
+    margin-right: 30px;
+}
+
+.rate{
+    color: #642F65;
+}
+
+main{
+    margin-left: 100px;
+
+}
+
+#comment{
+    width: 500px;
+    height:225px;
+
+}
+
+#name{
+    width: 452px;
+}
+
+.split{
+    display: flex;
+}
+/* divs side by side*/
+.split div:not(#break) {
+    align-items: center;
+    flex: 1;
+    padding: 15px 25px;
+    margin-right: 30px;
+
+}
+
+#inputs{
+    margin-top: 30px;
+    word-break: break-all;
+    border: 3px solid #642F65;
+}
+
+#inputs #break{
+    background-color: #642F65;
+    color: #642F65;
+}

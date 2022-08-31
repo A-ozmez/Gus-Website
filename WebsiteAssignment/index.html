@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dapperton</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="jquery-3.6.0.js" ></script>
+    <!-- accordion UI -->
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</head>
+<body>
+    <!--navigation bar -->
+    <nav class="navbar">
+        <div class="brandTitle">
+            <a href="https://webpages.uncc.edu/aozmez/Exercise/index.html">Gus DapperFans</a>
+        </div>
+        <!-- hamburger menu -->
+        <a href="#" class="toggleButton">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbarLinks">
+            <ul>
+                <li>
+                    <!-- link one -->
+                    <a id="index" class="current" href="https://webpages.uncc.edu/aozmez/Exercise/index.html">Home</a>
+                </li>
+                <li>
+                    <!-- link two -->
+                    <a id="music" href="https://webpages.uncc.edu/aozmez/Exercise/Music.html">Music</a>
+                </li>
+                <li>
+                    <!-- link three -->
+                    <a id="ratings"  href="https://webpages.uncc.edu/aozmez/Exercise/Ratings.html">Ratings</a>
+                </li>
+                <li>
+                    <!-- link four -->
+                    <a id="gallery" href="https://webpages.uncc.edu/aozmez/Exercise/Gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<header>
+    <h1>Home</h1>
+
+</header>
+<main>
+    <!--About Gus -->
+    <br><br>
+    <div class="about">
+        <div>
+            <img alt="homepage image" src="gus/dazed-gus.jpg">
+        </div>
+
+        <div class="info">
+
+            <h1>About Gus Dapperton</h1>
+            <div id="forJSON"></div>
+            <!-- in JSON
+            <p><b>Birth Name:</b> Brendan Patrick Rice</p>
+            <p><b>Stage Name:</b> Gus Dapperton</p>
+            <p><b>Born:</b> March 11, 1997 (Warwick, New York)</p>
+            <p><b>Genres:</b> Indie-Pop, Bedroom-Pop, Synth-Pop</p>
+            <br><br> -->
+            <h1>Recent and Upcoming Concerts (2021-2022)</h1><br>
+
+            <!-- accordion menu -->
+            <div id="accordion">
+                <h3>October 2021</h3>
+                <div id="panel1">
+                    <ul>
+                        <li>Oct 17: Carrboro, NC, US</li>
+                        <li>Oct 19: Nashville, TN, US</li>
+                        <li>Oct 20: Atlanta, GA, US</li>
+                        <li>Oct 22: Dallas, TX, US</li>
+                        <li>Oct 23: Austin, TX, US</li>
+
+                        <li>Oct 24: San Antonio, TX, US</li>
+                        <li>Oct 26: Phoenix, AZ, US</li>
+                        <li>Oct 27: San Diego, CA, US</li>
+                        <li>Oct 29: Los Angeles (LA), CA, US</li>
+                    </ul>
+                </div>
+                <h3>November 2021</h3>
+                <div id="panel2">
+                    <ul>
+                        <li>Nov 1: Portland, OR, US</li>
+                        <li>Nov 2: CANCELED Vancouver, BC, Canada</li>
+                        <li>Nov 3: Seattle, WA, US</li>
+                        <li>Nov 6: Englewood, CO, US</li>
+                        <li>Nov 8: Minneapolis, MN, US</li>
+                        <li>Nov 9: Lake Geneva, WI, US</li>
+                        <li>Nov 10: Chicago, IL, US</li>
+
+                        <li>Nov 12: West Lafayette, IN, US</li>
+                        <li>Nov 13: Lakewood, OH, US</li>
+                        <li>Nov 15: South Burlington, VT, US</li>
+                        <li>Nov 16: Boston, MA, US</li>
+                        <li>Nov 18: Brooklyn, NY, US</li>
+                        <li>Nov 19: Philadelphia, PA, US</li>
+                        <li>Nov 20: Washington, DC, US</li>
+                    </ul>
+                </div>
+                <h3>January 2022</h3>
+                <div id="panel3">
+                    <ul>
+                        <li>Jan 20: Montreal, QC, Canada</li>
+                        <li>Jan 21: Toronto, ON, Canada</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+    <script src="nav.js" defer></script>
+    <script src="index.js" ></script>
+
+    <footer>
+        <br>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>

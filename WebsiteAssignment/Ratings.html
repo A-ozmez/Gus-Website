@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ratings</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="Ratings.css" />
+    <script src="jquery-3.6.0.js" ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/raty/3.1.1/jquery.raty.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raty/3.1.1/jquery.raty.min.js"></script>
+
+</head>
+<body>
+    <!--navigation bar -->
+    <nav class="navbar">
+        <div class="brandTitle">
+            <a href="https://webpages.uncc.edu/aozmez/Exercise/index.html">Gus DapperFans</a>
+        </div>
+        <!-- hamburger menu -->
+        <a href="#" class="toggleButton">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbarLinks">
+            <ul>
+                <li>
+                    <!-- link one -->
+                    <a id="index" href="https://webpages.uncc.edu/aozmez/Exercise/index.html">Home</a>
+                </li>
+                <li>
+                    <!-- link two -->
+                    <a id="music" href="https://webpages.uncc.edu/aozmez/Exercise/Music.html">Music</a>
+                </li>
+                <li>
+                    <!-- link three -->
+                    <a id="ratings" class="current" href="https://webpages.uncc.edu/aozmez/Exercise/Ratings.html">Ratings</a>
+                </li>
+                <li>
+                    <!-- link four -->
+                    <a id="gallery" href="https://webpages.uncc.edu/aozmez/Exercise/Gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<header>
+    <h1>Your Ratings</h1><br>
+</header>
+<main>
+
+    <div class="split">
+        <div class="section">
+            <h2>Album Ratings</h2>
+
+            <!-- star ratings -->
+            <ol>
+                <li><p>Yellow and Such</p><div id = "rating" class = "rate"></div></li>
+                <li><p>You Think You're a Comic!</p><div id="rating2" class="rate"></div></li>
+                <li><p>Where Polly People go to Read</p><div id="rating3" class="rate"></div></li>
+                <li><p>Orca</p><div id="rating4" class="rate"></div></li>
+            </ol><br>
+
+            <h2>Comments</h2>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br><br>
+
+            <label for="comment">Comment:</label><br>
+            <textarea name="comment" id="comment"></textarea><br><br>
+
+            <input type="button" value="Submit" id="submit">
+        </div>
+
+        <div class ="section" id="inputs"></div>
+    </div>
+</main>
+    <script src="nav.js" defer></script>
+    <script src="Ratings.js"></script>
+    <footer>
+        <br>
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+
+</html>

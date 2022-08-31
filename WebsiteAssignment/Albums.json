@@ -1,0 +1,28 @@
+{"Albums":[
+  {
+    "name":"Yellow and Such",
+    "year":"2017",
+    "src": "https://open.spotify.com/embed/album/3SuhiImRJ7b27SLD31NW2r?utm_source=generator",
+    "id": "1"
+
+
+  },
+  {
+    "name":"You Think You're a Comic!",
+    "year":"2018",
+    "src": "https://open.spotify.com/embed/album/4yEyNFafoAX2uKKs4WOmNo?utm_source=generatorite",
+    "id": "2"
+  },
+  {
+    "name":"Where Polly People go to Read",
+    "year":"2019",
+    "src": "https://open.spotify.com/embed/album/4qSYIc2q02zeCN2fB2hBBR?utm_source=generator",
+    "id": "3"
+  },
+  {
+    "name":"Orca",
+    "year":"2020",
+    "src": "https://open.spotify.com/embed/album/1D8cnABQfjvfQC2Cdk889m?utm_source=generator",
+    "id": "4"
+  }
+]}

@@ -1,0 +1,52 @@
+header h1{
+    margin-left:30px;
+    margin-right: 30px;
+    font-family: "Agency FB";
+    border: 3px solid #642F65;
+    text-align: center;
+}
+
+h1{
+    vertical-align:top;
+    font-family: "Agency FB";
+    border: 3px solid #642F65;
+    text-align: center;
+}
+
+/* divs side by side*/
+main{
+    display: table;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about div{
+    display:table-cell;
+    width:50%;
+}
+
+img{
+    width: 100%;
+    vertical-align:bottom;
+}
+
+/* green background*/
+div .info {
+    background-color: #acd3ce;
+    max-block-size: min-content;
+    padding: 30px;
+    font-size: 1vw;
+    vertical-align:top;
+}
+
+/*separate list in tabs*/
+#accordion ul li{
+    width:50%;
+    float:left;
+}
+
+.about{
+    display: block;
+}

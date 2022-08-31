@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+    font-family: "Agency FB";
+    border: 3px solid #642F65;
+    margin-left:30px;
+    margin-right: 30px;
+}
+
+img{
+    width: 20%;
+}
+
+#names{
+    display: table;
+    text-align:center;
+    width:100%;
+}
+h2{
+    display:table-cell;
+    width:25%;
+
+}
+
+/*align items side to side*/
+#albums{
+    margin-left:8px;
+    display: flex;
+}
+#albums iframe {
+    align-items: center;
+    flex: 1;
+    padding: 15px 25px;
+    width: 1vw;
+}
+
+/*youtube slider*/
+div:not(.navbarLinks, .brandTitle, #albums){
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px 25px;
+
+}
+iframe{
+    width: 1350px;
+}
